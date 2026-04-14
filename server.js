@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT;
 
 const publicPath = path.join(__dirname,"public");
-const pagesPath = path.join(publicPath, "pages");
+const pagesPath = path.join(publicPath, "Pages");
 
 app.listen(port, function(){
     console.log(`Rodando servidor no http://localhost:${port}`);
